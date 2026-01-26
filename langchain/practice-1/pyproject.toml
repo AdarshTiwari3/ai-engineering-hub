@@ -1,0 +1,11 @@
+[project]
+name = "practice-1"
+version = "0.1.0"
+description = "LangChain practice with local LLaMA"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "langchain>=0.2",
+    "langchain-community>=0.2",
+    "ollama>=0.6.1",
+]
