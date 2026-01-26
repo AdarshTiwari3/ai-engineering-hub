@@ -110,4 +110,9 @@ touch src/main.py
 Run:
 ```bash
 uv run python src/main.py
+
+uv run uvicorn main:app --reload --app-dir src
+
+uv run uvicorn src.main:app --reload 
+
 ```
