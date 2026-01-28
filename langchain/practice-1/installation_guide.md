@@ -116,3 +116,12 @@ uv run uvicorn main:app --reload --app-dir src
 uv run uvicorn src.main:app --reload 
 
 ```
+
+### Running a Specific File Inside `src`
+
+To run a specific Python file inside the `src` directory, navigate to the `src` folder and execute the module using the `-m` flag.
+
+```bash
+cd src
+uv run python -m chunking_strategy.character_splitter
+```
