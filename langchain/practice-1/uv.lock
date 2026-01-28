@@ -891,6 +891,7 @@ dependencies = [
     { name = "fastapi" },
     { name = "langchain" },
     { name = "langchain-community" },
+    { name = "langchain-text-splitters" },
     { name = "ollama" },
     { name = "uvicorn" },
 ]
@@ -900,6 +901,7 @@ requires-dist = [
     { name = "fastapi", specifier = ">=0.128.0" },
     { name = "langchain", specifier = ">=0.2" },
     { name = "langchain-community", specifier = ">=0.2" },
+    { name = "langchain-text-splitters", specifier = ">=1.1.0" },
     { name = "ollama", specifier = ">=0.6.1" },
     { name = "uvicorn", specifier = ">=0.40.0" },
 ]
